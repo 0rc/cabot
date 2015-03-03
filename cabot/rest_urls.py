@@ -97,7 +97,6 @@ router.register(r'graphite_checks', create_viewset(
         'check_type',
         'value',
         'expected_num_hosts',
-        'expected_num_metrics',
     ),
 ))
 

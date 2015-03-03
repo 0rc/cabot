@@ -474,7 +474,6 @@ class TestAPI(LocalTestCase):
                     'check_type': u'>',
                     'value': u'9.0',
                     'expected_num_hosts': 0,
-                    'expected_num_metrics': 0,
                     'id': 1
                 },
             ],
@@ -554,7 +553,6 @@ class TestAPI(LocalTestCase):
                     'check_type': u'<',
                     'value': u'2',
                     'expected_num_hosts': 0,
-                    'expected_num_metrics': 0,
                     'id': 5
                 },
             ],
